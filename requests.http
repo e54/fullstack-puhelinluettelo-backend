@@ -29,3 +29,27 @@ Content-Type: application/json
     "name": "",
     "number": "023-123123"
 }
+
+###
+
+DELETE https://vast-atoll-45849.herokuapp.com/api/persons/3
+
+###
+
+POST https://vast-atoll-45849.herokuapp.com/api/persons
+Content-Type: application/json
+
+{
+    "name": "Test Person",
+    "number": "023-123123"
+}
+
+###
+
+POST https://vast-atoll-45849.herokuapp.com/api/persons
+Content-Type: application/json
+
+{
+    "name": "",
+    "number": "023-123123"
+}
